@@ -19,8 +19,7 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-print 
-         X              X
+print  "X               X
         X  X          X  X
          X  X        X  X
           X  X      X  X      
@@ -31,10 +30,10 @@ print
             X   B    X 
              X  ¿   X
               X    X
-               XXXX
+               XXXX"
 
 print "Author   : PANDAx"
-print "Facebook : https://m.facebook.com/J.cknew
+print "Facebook : https://m.facebook.com/J.cknew"
 print
 
 ip = raw_input("IP : ")
