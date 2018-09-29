@@ -21,7 +21,7 @@ os.system("clear")
 os.system("figlet DDos Attack")
 print
 print "Author   : PANDAx"
-print "Facebook : https://m.facebook.com/J.cknew
+print "Facebook : https://m.facebook.com/J.cknew"
 print
 
 if
