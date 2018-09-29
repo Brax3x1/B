@@ -19,20 +19,7 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-LOGO = r'''
-        X              X
-       X  X          X  X
-        X  X        X  X
-         X  X      X  X      
-          X  XXXXXX  X
-            X      X
-           X  ฿  ฿  X
-          X          X
-           X   B    X 
-            X  ¿   X
-             X    X
-              XXXX"
-'''
+
 print
 print "Author   : PANDAx"
 print "Facebook : https://m.facebook.com/J.cknew"
