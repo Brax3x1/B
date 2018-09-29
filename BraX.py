@@ -24,7 +24,7 @@ print "Author   : PANDAx"
 print "Facebook : https://m.facebook.com/J.cknew"
 print
 
-if
+
 ip = raw_input("IP : ")
 port = input("Port : ")
 
