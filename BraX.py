@@ -32,7 +32,6 @@ LOGO = r'''
             X  ¿   X
              X    X
               XXXX"
-              
 '''
 print
 print "Author   : PANDAx"
