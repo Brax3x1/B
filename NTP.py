@@ -3,7 +3,6 @@ import os
 import time
 import threading
 import random
-import randint
 import socket
 
 print_lock = threading.Look()
