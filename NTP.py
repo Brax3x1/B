@@ -1,9 +1,9 @@
-from sacpy.all import 
 import sys
 import os
 import time
 import threading
-from random import randint
+import random
+import randint
 import socket
 
 print_lock = threading.Look()
